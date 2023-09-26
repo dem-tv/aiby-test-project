@@ -7,7 +7,7 @@ module.exports = {
   mode: 'development',
   output: {
     filename: '[name].bundle.js',
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, 'docs'),
     clean: true,
   },
   plugins: [
@@ -18,7 +18,7 @@ module.exports = {
       patterns: [
         {
           from: path.resolve(__dirname, './src/assets'),
-          to: path.resolve(__dirname, './dist/assets')
+          to: path.resolve(__dirname, './docs/assets')
         },
       ],
     }),
