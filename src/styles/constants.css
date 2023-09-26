@@ -4,11 +4,14 @@ html{
 
 body{
     font-size: 1.6rem;
-    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 :root{
     --select-transition: .15s ease-in;
+
+    --roboto-ff: 'Roboto', -apple-system, BlinkMacSystemFont, sans-serif;
+    --sf-pro-display-ff: 'SF Pro Display', -apple-system, BlinkMacSystemFont, sans-serif;
+    --general-ff: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Roboto', sans-serif;
 
     --btn-height: 5.6rem;
     --btn-radius: 2.4rem;

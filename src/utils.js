@@ -17,9 +17,9 @@ export const getLocaleObject = () => {
   }
   try {
     const locales = require(`./i18n/${lang}.json`)
-    return locales
+    return {localeObject: locales, lang}
   } catch(err){
     console.log(err)
-    return null
+    return {localeObject: null, lang: null}
   }
 }

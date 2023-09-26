@@ -20,9 +20,10 @@ form.addEventListener('submit', (e) => {
   }
 })
 
-const localeObject = getLocaleObject();
+const {localeObject, lang} = getLocaleObject();
 
 if(localeObject) {
+  document.querySelector('html').setAttribute('lang', lang)
   Object.entries(localeObject).forEach(([key, value]) => {
     const selector = '[data-translate=' + `"${key}"]`
     const nodes = document.querySelectorAll(selector);
