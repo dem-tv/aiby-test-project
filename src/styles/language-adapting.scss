@@ -1,0 +1,46 @@
+html[lang='de'], html[lang='es'], html[lang='fr'], html[lang='ja'], html[lang='pt']  {
+  .terms {
+    max-width: unset;
+
+    a {
+      @media (max-width: 430px) {
+        font-size: 2.5vw;
+      }
+    }
+  }
+  h1{
+    @media (max-width: 400px) {
+      font-size: 3.2rem;
+      line-height: 3.8rem;
+    }
+  }
+  .access-item{
+    @media (max-width: 360px) {
+      font-size: 1rem;
+      line-height: 1.8rem;
+    }
+  }
+
+  .button{
+    @media (max-width: 360px) {
+      font-size: 1.8rem;
+      line-height: 1.8rem;
+    }
+  }
+}
+
+html[lang='de']{
+  .access-item{
+    @media (max-width: 400px) {
+      font-size: 1rem;
+      line-height: 1.8rem;
+    }
+  }
+
+  .button{
+    @media (max-width: 400px) {
+      font-size: 1.8rem;
+      line-height: 1.8rem;
+    }
+  }
+}

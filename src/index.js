@@ -1,7 +1,5 @@
-import './styles/reset.css'
-import './styles/constants.css'
-import './styles/index.css'
-import {getLocaleObject} from "./utils";
+import './styles/index.scss'
+import {getLocaleObject} from "./js-utils/utils";
 
 
 const form = document.getElementById('continue-form');
