@@ -45,6 +45,10 @@ body{
     font-family: var(--general-ff);
 }
 
+.close{
+    display: flex;
+}
+
 .removed{
     display: none;
 }
@@ -101,7 +105,7 @@ body{
     z-index: 1;
 }
 .gallery{
-    margin: 4rem 0;
+    margin: 4rem 0 5rem;
     display: flex;
     justify-content: space-between;
     gap: .7rem;
@@ -216,5 +220,11 @@ input:checked+.access-item{
     }
     .main-wrapper{
         padding: 1.6rem 2.4rem 1rem;
+    }
+    .terms{
+        margin-top: 2.8rem;
+    }
+    .gallery{
+        margin: 4rem 0;
     }
 }
