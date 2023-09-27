@@ -16,7 +16,7 @@ a {
     transition: all var(--select-transition);
   }
   transition: color var(--select-transition);
-  &:active{
+  &:active, &:target{
     svg{
       path{
         fill: #fff!important;
